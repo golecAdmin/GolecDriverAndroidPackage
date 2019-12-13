@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.golecdriver.StartTrip">
+    <RelativeLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff7900">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:onClick="back"
+
+            android:src="@drawable/icons"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_toEndOf="@+id/back"
+            android:fontFamily="@font/comfortaa_light"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            style="@style/Base.V7.Theme.AppCompat"
+            android:textSize="20dp"
+            android:text="Trip"/>
+
+
+
+
+    </RelativeLayout>
+
+<LinearLayout
+    android:id="@+id/l1"
+
+
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/editronud"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_below="@id/bar"
+
+    android:layout_height="50dp">
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/otp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_below="@id/l1"
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="12sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/lo"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+           />
+        <TextView
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+
+            android:gravity="center"
+            android:id="@+id/sendotp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/editronud"
+            android:text="send otp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/veri"
+        android:visibility="gone"
+        android:layout_below="@id/l1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/otpedi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:hint="0000"
+            android:maxLength="4"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/veris"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/editronud"
+            android:text="submit otp"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/can"
+            android:layout_marginBottom="20dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/editronud"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/endtrip"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:id="@+id/end"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/editronud"
+            android:text="End  trip"/>
+    </LinearLayout>
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        >
+    </com.google.android.gms.maps.MapView>
+
+</RelativeLayout>

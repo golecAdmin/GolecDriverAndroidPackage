@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "851060038443",
+    "firebase_url": "https://golec-business.firebaseio.com",
+    "project_id": "golec-business",
+    "storage_bucket": "golec-business.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851060038443:android:a24b6df9cc0d479fdbc36e",
+        "android_client_info": {
+          "package_name": "com.golec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851060038443-58ckslgeo10sdpul1ot1atglfimlvsud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.golec",
+            "certificate_hash": "e413f127737c41eeebe242c0d4dc45a689ed3358"
+          }
+        },
+        {
+          "client_id": "851060038443-q59c5c5d8fq5f6gnta0qcrg0mbn01ktu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.golec",
+            "certificate_hash": "2d45101247c89c54b48eeac4e31a47056b3c2a60"
+          }
+        },
+        {
+          "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyZgkEo57zhHKkq87lHdStlIgSr7PBww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851060038443:android:a2fa280e0408968bdbc36e",
+        "android_client_info": {
+          "package_name": "com.golecdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851060038443-almbgvmfjp0co9qapf37kije2in6nd1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.golecdriver",
+            "certificate_hash": "2d45101247c89c54b48eeac4e31a47056b3c2a60"
+          }
+        },
+        {
+          "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyZgkEo57zhHKkq87lHdStlIgSr7PBww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851060038443:android:774e4dc62c70bd71dbc36e",
+        "android_client_info": {
+          "package_name": "golec.com.golec2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851060038443-3uagb4h080qrbs4gjmkqqng490csmoml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "golec.com.golec2",
+            "certificate_hash": "2d45101247c89c54b48eeac4e31a47056b3c2a60"
+          }
+        },
+        {
+          "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyZgkEo57zhHKkq87lHdStlIgSr7PBww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851060038443:android:2fdf42dc2283c2bddbc36e",
+        "android_client_info": {
+          "package_name": "golec.com.golecadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyZgkEo57zhHKkq87lHdStlIgSr7PBww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851060038443-0u2k06ivdb2v4oiced6dknbv6760bsik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

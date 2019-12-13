@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/gradient"
+
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:id="@+id/logo"
+
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/male"
+
+        />
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+
+
+        android:gravity="center"
+        android:text="Log in"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_below="@id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="visible"
+
+        android:layout_margin="50dp"
+        >
+
+
+        <EditText
+
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Username"
+
+
+            android:inputType="textEmailAddress"
+
+
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp" />
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Passowrd"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+
+            android:background="@drawable/editronud"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="LOGIN"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/login_activationkey"
+        android:layout_below="@id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+
+        android:layout_margin="50dp"
+        >
+        <EditText
+
+            android:id="@+id/editactivationkey"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Activation key"
+
+
+            android:inputType="textEmailAddress"
+
+
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/go"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+
+            android:background="@drawable/editronud"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="let's go"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+</RelativeLayout>
